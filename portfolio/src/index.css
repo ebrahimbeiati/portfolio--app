@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    body{
+        @apply bg-gray-200 text-black font-sans antialiased transition;
+        
+    }
+    li {
+        list-style: none;
+        margin: 5px auto;
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+.content-div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+}
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(165, 188, 238, 0.5),
+        hsla(242, 82%, 66%, 0.8)
+    );
+}
