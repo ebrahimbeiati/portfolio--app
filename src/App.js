@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skills from './components/Skills';
 import Projects from './components/Projects.jsx'
 import Contact from "./components/Contact";
-import {Router } from "react-router-dom";
+// import {Router } from "react-router-dom";
 
 function App() {
   return (
