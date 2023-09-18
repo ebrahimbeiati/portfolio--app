@@ -7,7 +7,6 @@ const Contact = () => {
     <div className='pb-8'>
         <p className='text-4xl font-bold inline border-b-4 border-yellow-500 
          text-white'>Contact</p>
-         
          <p className='text-white py-6'>
          Submit the form below
          </p>
